@@ -9,7 +9,7 @@ public class LRU {
     LapTabla lapTabla;
     KeretTabla keretTabla;
 
-    LinkedList<LapTabla.Lap> lapokInMemory;
+    LinkedList<Lap> lapokInMemory;
 
     protected int laphibakSzama;
     public LRU(LapTabla lapTabla, KeretTabla keretTabla) {
